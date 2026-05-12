@@ -2,6 +2,7 @@
   "name": "dqn_presentation",
   "type": "module",
   "private": true,
+  "packageManager": "pnpm@10.33.0",
   "scripts": {
     "build": "slidev build",
     "dev": "slidev",
@@ -15,6 +16,7 @@
     "vue": "^3.5.13"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["esbuild"]
+    "onlyBuiltDependencies": ["esbuild"],
+    "ignoredBuiltDependencies": ["playwright-chromium"]
   }
 }
